@@ -1,8 +1,6 @@
-
-
 export default function CartWidget({cartCount}) {
   return (
-    <a className="nav-link" href="#">
+    <a className="nav-link" href="cart">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -17,5 +15,3 @@ export default function CartWidget({cartCount}) {
     </a>
   );
 }
-
- 

@@ -1,84 +1,84 @@
 const products = [
   {
     id: "1",
-    name: "iphone 12",
-    price: 1000,
-    category: "celular",
-    img: "https://www.ubuy.com.ar/productimg/?image=aHR0cHM6Ly9pNS53YWxtYXJ0aW1hZ2VzLmNvbS9zZW8vQXBwbGUtaVBob25lLTEyLTY0R0ItQmx1ZS01Ry1GdWxseS1VbmxvY2tlZC1CLUdyYWRlLVVzZWQtQ2VsbHBob25lXzBkMDk1MWJjLTViNzgtNGRiYy05OTQ5LTNkOWJkMzE5MTE3Ni4wZGE3NWM0MjQzZmJlMjk0ZTNjM2UxOTg0NjU5MWMzZS5qcGVn.jpg",
+    name: "Peugeot 208",
+    price: 20000,
+    category: "0KM",
+    img: "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_8a6721feb2124b2e8ce38ee407cb8403.webp",
     stock: 25,
-    description: "Descripcion de Iphone 12",
+    description: "Descripcion de Peugeot 208",
   },
   {
     id: "2",
-    name: "samsung s21",
+    name: "Citroen C3",
     price: 800,
-    category: "celular",
-    img: "https://images.samsung.com/is/image/samsung/p6pim/ar/galaxy-s21/gallery/ar-galaxy-s21-5g-g991-sm-g991bzalaro-thumb-368338803",
+    category: "0KM",
+    img: "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_0db8955ac91b489a817b0cd1754b978e.webp",
     stock: 16,
-    description: "Descripcion de Samsung s21",
+    description: "Descripcion de Citroen C3",
   },
   {
     id: "3",
-    name: "Ipad 8va generacion",
+    name: "Fiat Palio",
     price: 1200,
-    category: "tablet",
-    img: "https://medias.musimundo.com/medias/00406046-143516-143516-01-143516-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w1MjI1MnxpbWFnZS9qcGVnfGhjMC9oYWMvMTAyODM0OTc0NTU2NDYvMDA0MDYwNDYtMTQzNTE2LTE0MzUxNl8wMS0xNDM1MTZfMDEuanBnX3NpemU1MTV8MzA0NmMzNGFhZjUwMDY2YjY5MjU0MjlkMGJlYWMxODAxZjE5ODJhZmJlOTczZThmZjE2NTQxMjU5NjE2OTA4Yw",
+    category: "usados",
+    img: "https://cdn.motor1.com/images/mgl/nJQZ1/s1/adios-al-fiat-nuevo-palio.webp",
     stock: 7,
-    description: "Descripcion de Ipad",
+    description: "Descripcion de Fiat Palio",
   },
   {
     id: "4",
-    name: "notebook",
+    name: "BMW X6",
     price: 1200,
-    category: "computer",
-    img: "https://bangho.vtexassets.com/arquivos/ids/161330/notebook-gamer-gm-15z12-gtx1650-4gb-gddr6-windows-11-1.jpg?v=638082621108000000",
+    category: "exclusivos",
+    img: "https://cdcssl.ibsrv.net/autodata/images/?img=USD40BMS211B01311.jpg&width=600&height=450",
     stock: 9,
-    description: "Descripcion de Ipad",
+    description: "Descripcion de BMW X6",
   },
   {
     id: "5",
-    name: "Google Pixel",
+    name: "Fiat Fastback",
     price: 800,
-    category: "celular",
-    img: "https://images.samsung.com/is/image/samsung/p6pim/ar/galaxy-s21/gallery/ar-galaxy-s21-5g-g991-sm-g991bzalaro-thumb-368338803",
+    category: "0KM",
+    img: "https://fastback.fiat.com.ar/content/dam/fiat/products/376/b38/0/2025/page/hero.png",
     stock: 16,
-    description: "Descripcion de Samsung s21",
+    description: "Descripcion de Fiat Fastback",
   },
   {
     id: "6",
-    name: "Motorola Razor",
+    name: "Chevrolet Cruze",
     price: 800,
-    category: "celular",
-    img: "https://images.samsung.com/is/image/samsung/p6pim/ar/galaxy-s21/gallery/ar-galaxy-s21-5g-g991-sm-g991bzalaro-thumb-368338803",
+    category: "0KM",
+    img: "https://www.chevrolet.com.ar/content/dam/chevrolet/sa/argentina/espanol/index/cars/cruze-5-premier/colorizer-1/02-images-2021/colorizer-branco-abalone.jpg?imwidth=960",
     stock: 16,
-    description: "Descripcion de Samsung s21",
+    description: "Descripcion de Chevrolet Cruze",
   },
   {
     id: "7",
-    name: "Galaxies Tab",
+    name: "Renault Clio",
     price: 1200,
-    category: "tablet",
-    img: "https://medias.musimundo.com/medias/00406046-143516-143516-01-143516-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w1MjI1MnxpbWFnZS9qcGVnfGhjMC9oYWMvMTAyODM0OTc0NTU2NDYvMDA0MDYwNDYtMTQzNTE2LTE0MzUxNl8wMS0xNDM1MTZfMDEuanBnX3NpemU1MTV8MzA0NmMzNGFhZjUwMDY2YjY5MjU0MjlkMGJlYWMxODAxZjE5ODJhZmJlOTczZThmZjE2NTQxMjU5NjE2OTA4Yw",
+    category: "usados",
+    img: "https://i0.wp.com/autoaldia.tv/wp-content/uploads/2015/07/Nuevo-Renault-Clio-Work-2.jpg?ssl=1",
     stock: 1,
-    description: "Descripcion de Ipad",
+    description: "Descripcion de Renault Clio",
   },
   {
     id: "8",
-    name: "Ipad Mini",
+    name: "Eco Sport",
     price: 1200,
-    category: "tablet",
-    img: "https://medias.musimundo.com/medias/00406046-143516-143516-01-143516-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w1MjI1MnxpbWFnZS9qcGVnfGhjMC9oYWMvMTAyODM0OTc0NTU2NDYvMDA0MDYwNDYtMTQzNTE2LTE0MzUxNl8wMS0xNDM1MTZfMDEuanBnX3NpemU1MTV8MzA0NmMzNGFhZjUwMDY2YjY5MjU0MjlkMGJlYWMxODAxZjE5ODJhZmJlOTczZThmZjE2NTQxMjU5NjE2OTA4Yw",
+    category: "usados",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2d4u_Wd3V_buyP8E4GqxA6VIF4QsCX4WUQA&s",
     stock: 6,
-    description: "Descripcion de Ipad mini",
+    description: "Descripcion de Eco Sport",
   },
   {
     id: "9",
-    name: "notebook",
+    name: "Audi A3",
     price: 1200,
-    category: "computer",
-    img: "https://bangho.vtexassets.com/arquivos/ids/161330/notebook-gamer-gm-15z12-gtx1650-4gb-gddr6-windows-11-1.jpg?v=638082621108000000",
+    category: "exclusivos",
+    img: "https://www.km77.com/revista/wp-content/uploads/2013/03/02-1024x683.jpg",
     stock: 18,
-    description: "Descripcion de computer",
+    description: "Descripcion de Audi A3",
   },
 ];
 
@@ -87,7 +87,7 @@ export const getProducts = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(products);
-    }, 2500);
+    }, 1000);
   });
 };
 
@@ -96,7 +96,7 @@ export const getProductsByCategory = (categoryId) => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(products.filter((prod) => prod.category === categoryId));
-    }, 2500);
+    }, 1000);
   });
 };
 

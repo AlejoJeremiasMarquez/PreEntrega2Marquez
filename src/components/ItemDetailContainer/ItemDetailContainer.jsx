@@ -2,7 +2,9 @@ import { useParams } from "react-router-dom";
 import { getProductByID } from "../../asyncMock";
 import { useEffect, useState } from "react";
 import ItemDetail from "../ItemDetail/ItemDetail";
+
 export default function ItemDetailContainer() {
+
   const [product, setProduct] = useState({})
   const {productId} = useParams()
 

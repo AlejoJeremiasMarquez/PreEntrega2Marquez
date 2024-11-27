@@ -1,0 +1,14 @@
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta las columnas automáticamente */
+    gap: 20px;
+    padding: 20px;
+}
+
+.item-list > * {
+background: #fff;
+border: 1px solid #ccc;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+}

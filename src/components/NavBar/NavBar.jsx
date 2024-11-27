@@ -25,26 +25,20 @@ export default function NavBar({title}) {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="/category/celular"
+                  to="/category/0KM"
                 >
-                  Phones
+                  0 KM
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/category/tablet">
-                  Tablets
+                <Link className="nav-link" to="/category/usados">
+                  Usados
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/category/computer">
-                  Noteboks
+                <Link className="nav-link" to="/category/exclusivos">
+                  Exclusivos
                 </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/contacto">
-                  Contacto
-                </Link>
-                {/* <a className="nav-link" href="/contacto">Contacto</a> */}
               </li>
             </ul>
             <form className="d-flex" role="search">
